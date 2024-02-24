@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top-bar {
+  background: linear-gradient(to right, #000000, #e74c3c);
+  color: white;
+  text-align: center;
+  padding-block: 10px;
+}
+nav {
+  background-color: rgba(0, 0, 0, 1);
+  text-align: center;
+  padding-block: 15px;
+  position: sticky;
+  top: 0;
+  color: white;
+}
+nav h5 {
+  display: inline-block;
+  margin-inline: 15px;
+}
+
+nav input {
+  width: 30%;
+  border: none;
+  font-size: larger;
+}
+nav input:focus {
+  outline: none;
+}
+nav span {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2px;
+}
+.sale {
+  padding: 6% 10%;
+  font-size: larger;
+  background-image: url("https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.sale header {
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2%;
+}
+.middle-area {
+  padding: 1% 5%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.shoes3 {
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-block: 10px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.shoephoto {
+  height: 150px;
+  width: 120px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 0.1%;
+  transition: 0.3s ease;
+}
+.bottom-area {
+  background: linear-gradient(to left, #000000, #434343);
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.shoe {
+  width: 85%;
+  height: 75%;
+  padding: 2%;
+  margin: auto;
+  margin-top: 7.5%;
+  box-shadow: 0px 0px 10px gray;
+}
+.history {
+  max-width: 40%;
+  color: white;
+}
+.history h1 {
+  font-size: xx-large;
+  margin-bottom: 30px;
+}
+.history p {
+  font-size: large;
+  margin-bottom: 50px;
+  line-height: 20px;
+}
+.big-shoe {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 8px 8px 8px white;
+  transition: 0.3s ease;
+}
+.big-shoe:hover {
+  right: 15%;
+  top: 25%;
+  width: 400px;
+  height: 400px;
+}
+.shoephoto:hover {
+  right: 15%;
+  top: 25%;
+  height: 200px;
+  width: 160px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  
+}
+a:hover {
+    color: rgba(233, 233, 233, 0.699);
+    transition: color 0.5s ease;
+}
